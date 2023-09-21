@@ -1,0 +1,63 @@
+body{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 20% 20% 60% 10%;
+   
+}
+
+h1 {
+    background-color: #004b87; /* Adjust the color to match komplett.no */
+    color: #fff; /* Text color */
+    padding: 35px;
+    text-align: center;
+}
+
+body > header {
+    
+    grid-column-start: 3;
+    display: flex;
+    justify-content: end;
+    
+}
+body > .grid {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: auto;
+    padding-left: 0px;
+    
+
+}
+
+body > div > a{
+    font-size: 50px;
+}
+.registerbutton{
+    display: flex;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-row-start: 6;
+    font-size: 5;
+}
+
+body > h1{
+    display: grid;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    float: left;
+    
+    }
+
+body > header{
+    grid-row-start: 1;
+}
+    
