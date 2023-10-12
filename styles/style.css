@@ -62,4 +62,31 @@ img{
 body > header{
     grid-row-start: 1;
 }
+
+p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+ul {
+ 
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a{
+    background-color: #004b87; /* Adjust the color to match komplett.no */
+    color: #ff00ee; /* Text color */
+    padding: 3px;
+    float: left;  
+}
+
+img{
+width: 100px;
+float: right;
+
+}
     
