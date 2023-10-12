@@ -1,13 +1,14 @@
 body{
-   font-family: arial, sans-serif;
-   background-color: white;
+    font-family: arial, sans-serif;
+    background-color: white;
 }
 
 h1 {
     background-color: #004b87; /* Adjust the color to match komplett.no */
     color: #fff; /* Text color */
-    padding: 32px;
-    text-align: center;
+    padding: auto;
+    text-align: left;
+    
 }
 
 body > header {
@@ -16,14 +17,23 @@ body > header {
     display: flex;
     justify-content: end;
     
-  
+    
+    
+    
     
 }
+
 header{
     grid-column-start: 3;
     display: flex;
     justify-content: end;
-
+    a{
+        background-color: #004b87; /* Adjust the color to match komplett.no */
+        color: #ff00ee; /* Text color */
+        padding: 3px;
+        float: left;  
+    }
+    
 }
 body > .grid {
     grid-column-start: 2;
@@ -36,7 +46,7 @@ body > .grid {
     margin-bottom: auto;
     padding-left: 0px;
     
-
+    
 }
 
 body > div > a{
@@ -55,15 +65,21 @@ body > h1{
     grid-column-start: 2;
     display: flex;
     justify-content: center;
+    text-align: center;
+
+   
 }
 
-img{
-    width: 200px;
-    float: left;
-    
-    }
+body > h1 > header{
+    width: 100px;
+    float: right;
+    margin-left: auto;
+    text-align: left;
+}
 
 body > header{
+    
+ 
     grid-row-start: 1;
 }
 
@@ -73,7 +89,7 @@ p {
 }
 
 ul {
- 
+    
     padding-left: 20px;
 }
 
@@ -81,22 +97,18 @@ li {
     margin-bottom: 10px;
 }
 
-a{
-    background-color: #004b87; /* Adjust the color to match komplett.no */
-    color: #ff00ee; /* Text color */
-    padding: 3px;
-    float: left;  
-}
 
-img{
-width: 100px;
-float: right;
-
-}
 boks{
     background-color: aqua;
     width: 300px;
     padding: 30px;
     border: 3px black;
     margin: 100px;
+}
+img{
+width: 100px;
+float: right;
+margin-left: auto;
+text-align: left;
+
 }
