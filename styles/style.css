@@ -2,13 +2,13 @@ body{
     display: grid;
     grid-template-columns: 10% 80% 10%;
     grid-template-rows: 20% 20% 60% 10%;
-   
+   background-color: white;
 }
 
 h1 {
     background-color: #004b87; /* Adjust the color to match komplett.no */
     color: #fff; /* Text color */
-    padding: 35px;
+    padding: 32px;
     text-align: center;
 }
 
@@ -17,6 +17,8 @@ body > header {
     grid-column-start: 3;
     display: flex;
     justify-content: end;
+    
+  
     
 }
 body > .grid {
