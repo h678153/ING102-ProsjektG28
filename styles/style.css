@@ -1,7 +1,5 @@
 body{
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 20% 20% 60% 10%;
+   font-family: arial, sans-serif;
    background-color: white;
 }
 
@@ -20,6 +18,12 @@ body > header {
     
   
     
+}
+header{
+    grid-column-start: 3;
+    display: flex;
+    justify-content: end;
+
 }
 body > .grid {
     grid-column-start: 2;
@@ -89,4 +93,5 @@ width: 100px;
 float: right;
 
 }
+
     
