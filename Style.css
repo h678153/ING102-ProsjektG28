@@ -12,7 +12,11 @@
 
     font-size: xx-large;
 }
+body>div>img{
+width: 70%;
+height: auto;
 
+}
 #Klær1 {
     float: left;
     width: 23%;
@@ -20,6 +24,10 @@
     margin-top: 2%;
     text-align: center;
     font-size: larger;
+    
+    
+
+    
 
 }
 
