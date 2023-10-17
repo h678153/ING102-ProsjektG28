@@ -13,7 +13,7 @@
     font-size: xx-large;
 }
 
-#Klær {
+#Klær1 {
     float: left;
     width: 23%;
     margin-left: 7%;
@@ -22,6 +22,27 @@
     font-size: larger;
 
 }
+
+#Klær2 {
+    float: left;
+    width: 23%;
+    margin-left: 7%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: larger;
+
+}
+
+#Klær3 {
+    float: left;
+    width: 23%;
+    margin-left: 7%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: larger;
+
+}
+
 
 
 
