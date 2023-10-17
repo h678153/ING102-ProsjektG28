@@ -3,7 +3,7 @@ body{
     background-color: white;
 }
 
-h1 {
+h1, header,a {
     background-color: #004b87; /* Adjust the color to match komplett.no */
     color: #fff; /* Text color */
     padding: auto;
